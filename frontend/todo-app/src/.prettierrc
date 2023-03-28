@@ -3,5 +3,5 @@
   "useTabs": false,
   "bracketSpacing": false,
   "jsxSingleQuote": false,
-  "singleQuote": true
+  "singleQuote": false
 }
