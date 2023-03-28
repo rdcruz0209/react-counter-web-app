@@ -1,13 +1,13 @@
 // import logo from './logo.svg';
-
 import "./App.css";
-
-import Counter from "./component/counter/CounterButton";
+import Counter from "./component/counter/Counter";
 
 function App() {
   return (
     <div className="App">
-      <Counter></Counter>
+      <h1 className="count">This is a Counter App</h1>
+      <div className="count">Try and Click a Button</div>
+      <Counter totalCount={0}></Counter>
     </div>
   );
 }
